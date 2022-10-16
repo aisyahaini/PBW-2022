@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTf-8">
+    <meta name="description" content="Page Tentang">
+    <meta name="keywords" content="HTML, TAG, ELEMENT, CSS">
+    <meta name="author" content="aisyah nuraini">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>We'Recipes</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+      body {
+        color: rgb(99, 49, 49);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .header {
+        padding: 30px;
+        text-align: center;
+        color: #292224;
+      }
+        .header h1 {
+          font-size: 50px;
+          text-align: center;
+        }
+        .topnav {
+          background-color: #324851;
+        }
+        nav, footer {
+          clear: both;
+          color: white;
+          background-color: #324851;
+          height: 30px;
+        }
+        nav ul {
+          margin: 0px;
+          padding: 5px 0px 5px 30px;
+        }
+        nav li {
+          display: inline;
+          margin-right: 40px;
+        }
+        nav li a {
+          color: #dff8d5;
+        }
+        nav li a:hover, nav li a.current {
+          color: wheat;
+        }
+        .leftcolumn {   
+            float: left;
+            width: 75%;
+        }
+        aside {
+          margin-left: 4px;
+          height: 100%;
+        }
+        aside section a {
+          display: block;
+          padding: 10px;
+        }
+        aside section a:hover {
+          background-color: #efefef;
+        }
+        a {
+          color: #de6581;
+        }
+        .rightcolumn {
+          float: left;
+          width: 45%;
+          background-color: wheat;
+          padding-left: 20px;
+        }
+        footer {
+          font-size: 90%;
+          padding: 7px 0px 0px 20px;
+          color: #dff8d5;
+        }
+        @media screen and (max-width: 800px) {
+          .leftcolumn, .rightcolumn {   
+            width: 100%;
+            padding: 0;
+          }
+        }
+        @media screen and (max-width: 400px) {
+          .topnav a {
+            float: none;
+            width: 100%;
+          }
+        }
+      </style>
+  </head>
+  <body>
+      <div class="wrapper">
+          <header>
+            <h1 align="center" style="font-size: 50px;"><b>We'Re</b><small>cipes</small></h1>
+            <p align="center" style="color: #755b14;">We Serve An Easy Recipes</p>
+            <nav>
+              <ul align="center">
+                <li><a href="website.html">Beranda</a></li>
+                <li><a href="daftarresep.html">Daftar Resep</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+                <li><a href="media/CV.pdf">CV</a></li>
+              </ul>
+            </nav>
+          </header>
+          <br>
+          <br>
+          <header style="text-align: center;">
+              <img src="media/aisyah.jpg" width="200" height="200" style="border-radius: 50%">
+              <h1 style="color: #805A3B;">Aisyah Nuraini</h1>
+              <p>(Web Developer)</p>
+          </header>
+          <br>
+          <hr>
+          <br>
+      
+          <section>
+              <div class="leftcolumn">
+                  <h2>Tentang Saya</h2>
+                  <h5 style="color: black;">Dibuat pada <time datetime="2022-10-13">13 October 2022</time></h5>
+                  <p style="color: black;"> 
+                      Hi, Saya adalah calon web developer masa depan, saat ini saya sedang belajar HTML 5.
+                  </p> 
+                  <p style="color: black;"> 
+                      Saya masih baru dalam web development, karena itu 
+                      saya tidak akan pernah berhenti belajar. 
+                  </p> 
+                  <p style="color: black;"> 
+                      Saya ingin menguasai bahasa HTML, CSS, dan Javascript. 
+                  </p>
+                  <p style="color: black;">
+                      Untuk kedepannya, Saya ingin membuat web sendiri yang berisi tentang 
+                      kumpulan resep-resep 
+                  </p> 
+                  <p style="color: black;">
+                      makanan dan Minuman yang dapat memudahkan 
+                      untuk membuat makanan dan minuman tersebut.
+                  </p>
+          </section>
+      
+          <aside>
+              <section></section>
+                <h2>Video Perkenalan</h2>
+                <h5 style="color: black;">Dibuat pada <time datetime="2022-10-13">13 October 2022</time></h5>
+                <p style="color: black;">Berikut video perkenalan dari Saya :</p>
+                <video width="300px" controls>
+                  <source src="media/Edited.mp4" type="video/webm">
+                  <track src="sub.vtt" kind="subtitles" srcrlang="id" label="Indonesia">
+                </video>
+            </section>
+          </aside>
+          
+          <br>
+          <br>
+
+      <footer style="text-align: center;"> 
+        Copyright &copy; 2020 We'Recipes
+      </footer> 
+  </body>
+</html>
