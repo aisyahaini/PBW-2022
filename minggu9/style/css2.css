@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(49, 28, 28);
+    font-family: monospace;
+    text-align: center;
+}
+
+h1{
+  color: #fff;  
+}
+
+.ketengah{
+  margin: 20px auto;
+  width: 1100px;
+}
+
+.kotak{
+  background: rgb(243, 243, 247);
+  width: 700px;
+  float: left;
+  height: 300px;
+  margin: 38px;
+}
+
+.gradient1{
+  background: linear-gradient(brown, wheat);
+  background: -webkit-linear-gradient(brown, wheat);
+  background: -o-linear-gradient(brown, wheat);
+  background: -moz-linear-gradient(brown, wheat);
+}
+
+.gradient2{
+  background: linear-gradient(to left, brown, rgb(212, 188, 80), wheat);
+  background: -webkit-linear-gradient(right, brown, rgb(212, 188, 80), wheat);
+  background: -o-linear-gradient(left, brown, rgb(212, 188, 80), wheat);
+  background: -moz-linear-gradient(left, brown, rgb(212, 188, 80), wheat);
+}
+
+.gradient3{
+  background: radial-gradient(brown, rgb(212, 188, 80), wheat);
+  background: -webkit-radial-gradient(brown, rgb(212, 188, 80), wheat);
+  background: -o-radial-gradient(brown, rgb(212, 188, 80), wheat);
+  background: -moz-radial-gradient(brown, rgb(212, 188, 80), wheat);
+} 
+
+.gradient4{
+  background: radial-gradient(circle, brown, rgb(212, 188, 80), wheat);
+  background: -webkit-radial-gradient(circle, brown, rgb(212, 188, 80), wheat);
+  background: -o-radial-gradient(circle,brown, rgb(212, 188, 80), wheat);
+  background: -moz-radial-gradient(circle, brown, rgb(212, 188, 80), wheat);
+}
