@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello Javascript</title>
+    <script>
+        function hitung (){
+            var form = document.formhitung;
+            var x = eval(form.bil1.value);
+            var y = eval(form.bil2.value);
+            var pil = form.opt.value;
+            if (pil=="+"){
+                var z = x+y;
+            }
+            else if (pil=="-"){
+                var z = x-y;
+            }
+            else if (pil=="*"){
+                var z = x*y;
+            }
+            else if (pil=="/"){
+                var z = x/y;
+            }
+            form.hasil.value = z;
+            form.bil1.value = "";
+            form.bil2.value = "";
+        }
+    </script>
+</head>
+<body>
+    <h1>Kuis Javascript</h1>
+    <form name="formhitung">
+        bil 1 <input type="number" name="bil1"><br>
+        opr
+            <select name="opt">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select><br>
+        bil 2 <input type="number" name="bil2"><br>
+        <input type="button" value="=" onclick="hitung()"><br>
+        <input type="number" name="hasil" disabled="true">
+    </form>
+</body>
+</html>
