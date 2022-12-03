@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perulangan Nested 2</title>
+</head>
+<body>
+    <h2>Perulangan Nested 2</h2>
+
+    <script>
+        var ulang = confirm ("Apakah Anda ingin mengulang?");
+        var counter = 0;
+
+        while (ulang){
+            counter++;
+            var asterisk = "*". repeat(counter) + "<br>";
+            document.write(counter) + ": " + asterisk; 
+            ulang = confirm ("Apakah Anda ingin mengulang?");
+        }
+    </script>
+</body>
+</html>
