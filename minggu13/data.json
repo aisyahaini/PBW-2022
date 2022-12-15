@@ -1,0 +1,59 @@
+[
+    { 
+        "nomor":"2576",
+        "nama":"Taman Bunga Padma",
+        "lokasi":"Bandung",
+        "jenis":"Tanaman",
+        "JN":[ 
+            { 
+            "jn_kode":"431",
+            "nama_jn":"Bunga Bougenville"
+            },
+            { 
+            "jn_kode":"432",
+            "nama_jn":"Bunga Matahari"
+            },
+            { 
+            "jn_kode":"433",
+            "nama_jn":"Bunga Tulip"
+            },
+            { 
+            "jn_kode":"434",
+            "nama_jn":"Bunga Anggrek Bulan"
+            },
+            { 
+            "jn_kode":"435",
+            "nama_jn":"Bunga Daisy"
+            }
+        ]
+    },
+
+    { 
+        "nomor":"8971",
+        "nama":"Taman Bunga Manikam",
+        "lokasi":"Bogor",
+        "jenis":"Tanaman",
+        "JN":[ 
+            { 
+                "jn_kode":"941",
+                "nama_jn":"Bunga Telang"
+                },
+                { 
+                "jn_kode":"942",
+                "nama_jn":"Bunga Sakura"
+                },
+                { 
+                "jn_kode":"943",
+                "nama_jn":"Bunga Lily"
+                },
+                { 
+                "jn_kode":"944",
+                "nama_jn":"Bunga Anggrek Hitam"
+                },
+                { 
+                "jn_kode":"945",
+                "nama_jn":"Bunga Peony"
+                }
+        ]
+    } 
+]
